@@ -1,17 +1,12 @@
 {
     "name": "klipper/skeleton",
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "description": "A minimal Klipper project recommended to create bare bones applications",
-    "authors": [
-        {
-            "name": "Klipper Developers",
-            "email": "developer@klipper.dev"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
+        "optimize-autoloader": true,
         "preferred-install": {
             "*": "dist"
         },
@@ -50,10 +45,11 @@
     },
     "require": {
         "php": "^7.4.0",
-        "klipper/spark": "^2.0.0"
+        "klipper/klipper": "^2.0.0",
+        "symfony/flex": "^1.3.0"
     },
     "require-dev": {
-        "klipper/spark-dev-pack": "^2.0.0"
+        "klipper/klipper-dev-pack": "^2.0.0"
     },
     "replace": {
         "symfony/polyfill-ctype": "*",
