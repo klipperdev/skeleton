@@ -2,7 +2,7 @@
     "name": "klipper/skeleton",
     "type": "project",
     "license": "MIT",
-    "description": "A minimal Klipper project recommended to create bare bones applications",
+    "description": "A minimal Klipper project recommended to create API applications",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
