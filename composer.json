@@ -41,7 +41,7 @@
         }
     },
     "repositories": {
-        "klipper": {"type": "composer", "url": "https://satis.klipper.dev"}
+        "fxp": {"type": "composer", "url": "https://tug.fxp.io"}
     },
     "require": {
         "php": "^7.4.0",
