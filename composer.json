@@ -35,7 +35,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "require": "5.1.*"
+            "require": "5.2.*"
         },
         "branch-alias": {
             "dev-master": "1.0-dev"
@@ -47,7 +47,7 @@
     "require": {
         "php": "^7.4.0",
         "klipper/klipper-pack": "^2.0.0",
-        "symfony/flex": "^1.6.0"
+        "symfony/flex": "^1.11.0"
     },
     "require-dev": {
         "klipper/klipper-dev-pack": "^2.0.0"
