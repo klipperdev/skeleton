@@ -45,7 +45,7 @@
         "fxp": {"type": "composer", "url": "https://tug.fxp.io"}
     },
     "require": {
-        "php": "^7.4.0",
+        "php": "^7.4.0|^8.0.0",
         "klipper/klipper-pack": "^2.0.0",
         "symfony/flex": "^1.11.0"
     },
