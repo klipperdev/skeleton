@@ -38,7 +38,7 @@
             "require": "5.2.*"
         },
         "branch-alias": {
-            "dev-main": "1.0-dev"
+            "dev-2.0": "2.0-dev"
         }
     },
     "repositories": {
