@@ -35,7 +35,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "require": "5.2.*"
+            "require": "5.3.*"
         },
         "branch-alias": {
             "dev-2.0": "2.0-dev"
