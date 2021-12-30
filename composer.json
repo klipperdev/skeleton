@@ -6,6 +6,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "symfony/flex": true,
+            "symfony/runtime": true,
+            "klipper/rope": true
+        },
         "optimize-autoloader": true,
         "preferred-install": {
             "*": "dist"
@@ -44,10 +50,13 @@
     "repositories": {
         "fxp": {"type": "composer", "url": "https://tug.fxp.io"}
     },
+    "flex-require": {
+        "symfony/framework-bundle": "*"
+    },
     "require": {
         "php": "^7.4.0|^8.0.0",
         "klipper/klipper-pack": "^2.0.0",
-        "symfony/flex": "^1.11.0"
+        "symfony/flex": "^2.0.0"
     },
     "require-dev": {
         "klipper/klipper-dev-pack": "^2.0.0"
